@@ -1,3 +1,5 @@
+*This app was built as part of a hiring process test.*
+
 Node.js needs to be installed in order to run this app.
 
 With node, the app itself can be setup using `npm install`, and started using `npm start`.
