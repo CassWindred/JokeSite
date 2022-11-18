@@ -1,0 +1,57 @@
+html {
+    padding: 3em 1em;
+    margin: auto;
+    line-height: 1.75;
+    font-size: 1.25em;
+    background-color: #BA0E84;
+  }
+
+.content {
+  margin: auto;
+
+  text-align: center;
+
+}
+
+.title {
+  font-family: "Alfa Slab One";
+  font-size: 50px;
+  color: #D1E743;
+}
+
+.joke-container {
+  background-color: #F9FBEB;
+
+  max-width: 40em;
+  min-height: 8em;
+  margin: auto;
+  padding: 1em;
+
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+
+
+  box-shadow: 5px 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.joke-container div {
+  margin: auto;
+}
+
+.joke-setup {
+  width: 60%;
+}
+
+.joke-punchline {
+  margin: 0em;
+  width: 40%;
+  flex-shrink: 0;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.joke-hidden {
+  font-weight: lighter;
+}
